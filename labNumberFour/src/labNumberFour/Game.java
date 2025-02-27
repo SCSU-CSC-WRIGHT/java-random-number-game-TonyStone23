@@ -8,7 +8,7 @@ public class Game {
 	public static void main(String [] args) {
 		
 		Scanner s = new Scanner(System.in);
-		Random r = new Random(42);
+		Random r = new Random();
 		
 		System.out.println("What level would you like to play?");
 		System.out.println("Easy = 1");
